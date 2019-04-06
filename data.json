@@ -1,0 +1,418 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+	{
+        "text": "good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "who are you",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "what do you do?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "what can you do for me?",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "what is the procedure for admission in msc comp sci?",
+        "intent": "new_admission",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what is the procedure for admission in bsc comp sci",
+        "intent": "new_admission",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "bsc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what is the fees of msc comp sci?",
+        "intent": "inform_fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what is the procedure for admission?",
+        "intent": "new_admission",
+        "entities": []
+      },
+      {
+        "text": "what is the fees?",
+        "intent": "inform_fees",
+        "entities": []
+      },
+      {
+        "text": "how are the placements of bcom?",
+        "intent": "inform_placements",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "bcom",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "how are the placements?",
+        "intent": "inform_placements",
+        "entities": []
+      },
+      {
+        "text": "how are the placements of mba",
+        "intent": "inform_placements",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "mba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "how are the placements of mcom?",
+        "intent": "inform_placements",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": " mcom",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "how are the placements of bsc?",
+        "intent": "inform_placements",
+        "entities": []
+      },
+      {
+        "text": "what is the fees of mba",
+        "intent": "inform_fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "mba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what is the fees of msc comp sci",
+        "intent": "inform_fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what are the co curricular activities ?",
+        "intent": "events",
+        "entities": []
+      },
+      {
+        "text": "what are the events in college",
+        "intent": "events",
+        "entities": []
+      },
+      {
+        "text": "co curricular activities",
+        "intent": "events",
+        "entities": []
+      },
+      {
+        "text": "how are you?",
+        "intent": "health",
+        "entities": []
+      },
+      {
+        "text": "wassup?",
+        "intent": "health",
+        "entities": []
+      },
+      {
+        "text": "what's the fees of bba?",
+        "intent": "inform_fees",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "bba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what's the procedure for admission in in bba",
+        "intent": "new_admission",
+        "entities": [
+          {
+            "start": 40,
+            "end": 44,
+            "value": " bba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "when is the entrance exam?",
+        "intent": "entrance_exam",
+        "entities": []
+      },
+      {
+        "text": "when is the entrance exam of msc comp sci",
+        "intent": "entrance_exam",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "when is the entrance exam of mba",
+        "intent": "entrance_exam",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "mba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "when is the entrance exam of mca",
+        "intent": "entrance_exam",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "mca",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what si the procedure for admission in mca",
+        "intent": "new_admission",
+        "entities": [
+          {
+            "start": 38,
+            "end": 42,
+            "value": " mca",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "previous year questions papers for entrance exam of of msc comp sci",
+        "intent": "question_paper_entrance",
+        "entities": [
+          {
+            "start": 55,
+            "end": 67,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "previous year papers for entrance exam of mba",
+        "intent": "question_paper_entrance",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": " mba",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "timings of college?",
+        "intent": "college_timings",
+        "entities": []
+      },
+      {
+        "text": "what are the timings of msc comp sci",
+        "intent": "college_timings",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "msc comp sci",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what are the timings of bcs",
+        "intent": "college_timings",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": " bcs",
+            "entity": "stream"
+          }
+        ]
+      },
+      {
+        "text": "what is the distance from my home to college?",
+        "intent": "calculate_distance",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "home",
+            "entity": "location"
+          }
+        ]
+      },
+	{
+        "text": "tell me the distance from my home to college?",
+        "intent": "calculate_distance",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "home",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is the fees of bsc?",
+        "intent": "inform_fees",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "bsc",
+            "entity": "stream"
+          }
+        ]
+      }
+    ]
+  }
+}
