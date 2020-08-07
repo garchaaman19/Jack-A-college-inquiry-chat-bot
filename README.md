@@ -3,5 +3,5 @@ It’s a Machine learning chat bot which answers questions related to a particul
 
 ## Installation
 ### Python3.6.0
-### install requirements.txt with pip -r requirements.txt
-### make sure anaconda is installed to overcome all the dependencies.
+#### install requirements.txt with pip -r requirements.txt
+#### make sure anaconda is installed to overcome all the dependencies.
